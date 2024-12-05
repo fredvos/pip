@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# Echoes the following tags:
+# - Pip main version (23)
+# - Pip minor version (like 23.0)
+# - Pip full version (like 23.0.1)
+
+pip --version 2>&1 | sed -r 's/pip ([0-9.]+).*/\1/' | version-to-tags

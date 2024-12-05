@@ -13,9 +13,9 @@ are available as tags.
 Examples:
 
 - 20241110-183844
-- :3
-- :3.11
-- :3.11.2
+- :23
+- :23.0
+- :23.0.1
 
 ## Build image
 

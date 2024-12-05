@@ -1,4 +1,4 @@
-# Docker image mokolo-org/pip:3
+# Docker image mokolo-org/pip:X
 
 Base Docker image for Python3 projects that require pip for dependencies
 
